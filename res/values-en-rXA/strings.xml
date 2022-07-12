@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">[ÑåVîĝåţé ĥöḿé one two]</string>
+    <string name="abc_action_bar_up_description">[ÑåVîĝåţé ûþ one two]</string>
+    <string name="abc_action_menu_overflow_description">[Ḿöŕé öþţîöñš one two]</string>
+    <string name="abc_action_mode_done">[Ðöñé one]</string>
+    <string name="abc_activity_chooser_view_see_all">[Šéé åļļ one two]</string>
+    <string name="abc_activitychooserview_choose_application">[Çĥööšé åñ åþþ one two]</string>
+    <string name="abc_capital_off">[ÖFF one]</string>
+    <string name="abc_capital_on">[ÖÑ one]</string>
+    <string name="abc_font_family_body_1_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_body_2_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_font_family_button_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_font_family_caption_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_1_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_2_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_3_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_4_material">[šåñš-šéŕîƒ-ļîĝĥţ one two three]</string>
+    <string name="abc_font_family_headline_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_menu_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_subhead_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_title_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_menu_alt_shortcut_label">[Åļţ+ one]</string>
+    <string name="abc_menu_ctrl_shortcut_label">[Çţŕļ+ one]</string>
+    <string name="abc_menu_delete_shortcut_label">[ðéļéţé one two]</string>
+    <string name="abc_menu_enter_shortcut_label">[éñţéŕ one]</string>
+    <string name="abc_menu_function_shortcut_label">[Fûñçţîöñ+ one two]</string>
+    <string name="abc_menu_meta_shortcut_label">[Ḿéţå+ one]</string>
+    <string name="abc_menu_shift_shortcut_label">[Šĥîƒţ+ one two]</string>
+    <string name="abc_menu_space_shortcut_label">[šþåçé one]</string>
+    <string name="abc_menu_sym_shortcut_label">[Šýḿ+ one]</string>
+    <string name="abc_prepend_shortcut_label">[Ḿéñû+ one]</string>
+    <string name="abc_search_hint">[Šéåŕçĥ… one two]</string>
+    <string name="abc_searchview_description_clear">[Çļéåŕ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_query">[Šéåŕçĥ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_search">[Šéåŕçĥ one two]</string>
+    <string name="abc_searchview_description_submit">[Šûɓḿîţ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_voice">[νöîçé šéåŕçĥ one two]</string>
+    <string name="abc_shareactionprovider_share_with">[Šĥåŕé ŵîţĥ one two]</string>
+    <string name="abc_shareactionprovider_share_with_application">[Šĥåŕé ŵîţĥ %s one two]</string>
+    <string name="abc_toolbar_collapse_description">[Çöļļåþšé one two]</string>
+    <string name="call_911">[Éḿéŕĝéñçý Çåļļ(911) one two three]</string>
+    <string name="continue_now">[Çöñţîñûé one two]</string>
+    <string name="expand_button_title">[ÅðVåñçéð one two]</string>
+    <string name="later_not_now">[Ļåţéŕ one]</string>
+    <string name="notification_sigup_title">[νéŕîžöñ åçţîVåţîöñ one two three]</string>
+    <string name="notification_sigup_user_info">[Þļéåšé šîĝñ ûþ ñöŵ one two three]</string>
+    <string name="nw_rejected_err_details_to_user">"[Šöŕŕý, ţĥîš ŠÎḾ çåŕð îš ñöţ ŕéåðåɓļé.
+Þļéåšé çöñţåçţ ýöûŕ ŵîŕéļéšš šéŕVîçé þŕöVîðéŕ.
+ Öŕ 
+Þļéåšé Šîĝñûþ ûšîñĝ Ŵîƒî ñéţŵöŕķ one two three four five six seven eight nine ten eleven twelve]"</string>
+    <string name="nw_rejected_signup_via_mobile_data">"[Šöŕŕý, ţĥîš ŠÎḾ çåŕð îš ñöţ ŕéåðåɓļé.
+Þļéåšé çöñţåçţ ýöûŕ ŵîŕéļéšš šéŕVîçé þŕöVîðéŕ.
+ Öŕ 
+Þļéåšé Šîĝñûþ ûšîñĝ ḿöɓîļé ðåţå ñéţŵöŕķ one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="pco_activate_now">[ÅçţîVåţé Ñöŵ one two]</string>
+    <string name="pco_contact_customer_care">[Çûšţöḿéŕ Çåŕé:583838383 one two three]</string>
+    <string name="pco_contact_customer_care_number">[583838383 one two]</string>
+    <string name="pco_get_optr_srvtitle">[Ĝéţ νéŕîžöñ šéŕVîçé one two three]</string>
+    <string name="search_menu_title">[Šéåŕçĥ one two]</string>
+    <string name="service_notification_details">[Þļéåšé šîĝñ ûþ ñöŵ one two three]</string>
+    <string name="service_notification_title">[Ŕéĝîšţŕåţîöñ Þŕöçéšš one two three]</string>
+    <string name="setup_details">"[Šöŕŕý, ţĥîš ŠÎḾ çåŕð îš ñöţ ŕéåðåɓļé.
+ Þļéåšé çöñţåçţ ýöûŕ ŵîŕéļéšš šéŕVîçé þŕöVîðéŕ one two three four five six seven eight nine]"</string>
+    <string name="setup_nw_status_not_reg">[Šţåţûš:ŠÎḾ îš ñöţ ŕéĝîšţéŕéð one two three four]</string>
+    <string name="setup_nw_status_registered">[Šţåţûš:ŠÎḾ îš ŕéĝîšţéŕéð one two three]</string>
+    <string name="setup_on_any_nw">"[Ñö îñţéŕñéţ.
+Þļéåšé öñ ḿöɓîļé ðåţå.
+ one two three four five]"</string>
+    <string name="setup_on_mobile_data_nw_only">"[Ñö îñţéŕñéţ.
+Ðö ýöû ŵåñţ ţûŕñ öñ Ḿöɓîļé Ðåţå ƒöŕ Šîĝñûþ¿
+ one two three four five six seven]"</string>
+    <string name="setup_on_wifi_nw_only">"[Ñö îñţéŕñéţ.
+Ðö ýöû ŵåñţ ţûŕñ öñ Ŵîƒî ƒöŕ Šîĝñûþ¿.
+ one two three four five six]"</string>
+    <string name="setup_sub_title">[Ŵéļçöḿé ţö Þĥöñé ÅçţîVåţîöñ one two three four]</string>
+    <string name="setup_title">[νéŕîžöñ ÅçţîVåţîöñ Ŵîžåŕð one two three]</string>
+    <string name="signup_now">[ŠîĝñÎñ Ñöŵ one two]</string>
+    <string name="signup_title_dialog_fragment">[Ŕéĝîšţŕåţîöñ Šéţûþ one two three]</string>
+    <string name="signup_user_info">[Þļéåšé ƒîļļ åļļ ŕéQûîŕéð ƒîéļðš ƒöŕ ŕéĝîšţŕåţîöñ. Îƒ ýöû ĥåVé åļŕéåðý ŕéĝîšţéŕéð þļéåšé ĝö ţö Šîĝñ Îñ one two three four five six seven eight nine ten eleven]</string>
+    <string name="status_bar_notification_info_overflow">[999+ one]</string>
+    <string name="summary_collapsed_preference_list">[%1$s, %2$s one]</string>
+    <string name="turnoff_mobile_data">[Ñöţ ţö šéļéçţ þļåñ one two three]</string>
+    <string name="use_mobile_data">[šéļéçţ å þļåñ one two]</string>
+    <string name="use_wifi">[Ûšé Ŵîƒî one two]</string>
+    <string name="user_nw_info_activated">"[ŠÎḾ ĥåš ɓééñ šûççéššƒûļļý åçţîVåţéð.
+Ŵéļçöḿé ţö νéŕîžöñ ƒåḿîļý one two three four five six seven]"</string>
+    <string name="v7_preference_off">[ÖFF one]</string>
+    <string name="v7_preference_on">[ÖÑ one]</string>
+    <string name="view_vzw_account">[νéŕîžöñ Åççöûñţ one two three]</string>
+</resources>

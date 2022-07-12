@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.mediatek.ims.pco" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <protected-broadcast android:name="com.mediatek.ims.pco.ACTION_QUERY_IMS_PCO_STATUS_FRM_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.mediatek.permission.start.pcostartupwizardmainactivity"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <permission android:name="com.mediatek.permission.start.pcostartupwizardmainactivity" android:protectionLevel="signatureOrSystem"/>
+    <application android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:extractNativeLibs="false" android:label="Verizon activation" android:usesNonSdkApi="true">
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:icon="@drawable/ic_settings_accounts" android:label="@string/view_vzw_account" android:launchMode="singleTop" android:name="com.mediatek.ims.pco.ui.PCOAccountSettings"/>
+        <activity android:label="@string/setup_title" android:launchMode="singleTop" android:name="com.mediatek.ims.pco.ui.PCOStartUPWizardMainActivity" android:permission="com.mediatek.permission.start.pcostartupwizardmainactivity">
+            <intent-filter>
+                <action android:name="com.mediatek.ims.pco.ui.ACTION_SIGN_UP"/>
+                <category android:name="com.mediatek.ims.pco.category.USE_WIFI_NW"/>
+                <action android:name="com.mediatek.ims.pco.ui.ACTION_SIGN_UP_EXIT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mediatek.ims.pco.PCOBootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.android.internal.telephony.CARRIER_SIGNAL_PCO_VALUE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.mediatek.ims.pco.PCOService" android:persistent="true"/>
+    </application>
+</manifest>

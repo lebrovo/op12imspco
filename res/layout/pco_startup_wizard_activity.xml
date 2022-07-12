@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/roundednotification" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/notificationbackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/setup_title_id" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/setup_title" android:lineSpacingExtra="8.0sp" />
+            <TextView android:textSize="14.0sp" android:gravity="top" android:layout_gravity="bottom" android:id="@id/setup_subtitle_id" android:background="@drawable/notificationbackground" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/setup_sub_title" />
+            <TextView android:textSize="14.0sp" android:gravity="top" android:layout_gravity="bottom" android:id="@id/setup_nw_err_info_id" android:background="@drawable/notificationbackground" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            <View android:id="@id/divider" android:background="?android:listDividerAlertDialog" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+            <TextView android:id="@id/setup_status_id" android:background="@drawable/notificationbackground" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/setup_nw_status_not_reg" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/roundednotification" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/notificationbackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/user_notification_info_id" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="@string/setup_on_any_nw" />
+            <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/btn_area" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip">
+                <Button android:id="@id/cancel_btn" android:padding="1.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/bottom_bar_height" android:layout_margin="1.0dip" android:text="@string/later_not_now" android:layout_weight="1.0" />
+                <Button android:id="@id/ok_btn" android:padding="1.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/bottom_bar_height" android:layout_margin="1.0dip" android:text="@string/continue_now" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

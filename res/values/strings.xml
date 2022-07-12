@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="call_911">Emergency Call(911)</string>
+    <string name="continue_now">Continue</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="later_not_now">Later</string>
+    <string name="notification_sigup_title">Verizon activation</string>
+    <string name="notification_sigup_user_info">Please sign up now</string>
+    <string name="nw_rejected_err_details_to_user">"Sorry, this SIM card is not readable.
+Please contact your wireless service provider.
+ Or 
+Please Signup using Wifi network"</string>
+    <string name="nw_rejected_signup_via_mobile_data">"Sorry, this SIM card is not readable.
+Please contact your wireless service provider.
+ Or 
+Please Signup using mobile data network"</string>
+    <string name="pco_activate_now">Activate Now</string>
+    <string name="pco_contact_customer_care">Customer Care:583838383</string>
+    <string name="pco_contact_customer_care_number">583838383</string>
+    <string name="pco_get_optr_srvtitle">Get Verizon service</string>
+    <string name="search_menu_title">Search</string>
+    <string name="service_notification_details">Please sign up now</string>
+    <string name="service_notification_title">Registration Process</string>
+    <string name="setup_details">"Sorry, this SIM card is not readable.
+ Please contact your wireless service provider"</string>
+    <string name="setup_nw_status_not_reg">Status:SIM is not registered</string>
+    <string name="setup_nw_status_registered">Status:SIM is registered</string>
+    <string name="setup_on_any_nw">"No internet.
+Please on mobile data.
+"</string>
+    <string name="setup_on_mobile_data_nw_only">"No internet.
+Do you want turn on Mobile Data for Signup?
+"</string>
+    <string name="setup_on_wifi_nw_only">"No internet.
+Do you want turn on Wifi for Signup?.
+"</string>
+    <string name="setup_sub_title">Welcome to Phone Activation</string>
+    <string name="setup_title">Verizon Activation Wizard</string>
+    <string name="signup_now">SignIn Now</string>
+    <string name="signup_title_dialog_fragment">Registration Setup</string>
+    <string name="signup_user_info">Please fill all required fields for registration. If you have already registered please go to Sign In</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="turnoff_mobile_data">Not to select plan</string>
+    <string name="use_mobile_data">select a plan</string>
+    <string name="use_wifi">Use Wifi</string>
+    <string name="user_nw_info_activated">"SIM has been successfully activated.
+Welcome to Verizon family"</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="view_vzw_account">Verizon Account</string>
+</resources>
